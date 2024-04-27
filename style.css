@@ -1,0 +1,36 @@
+.container{
+    color: white;
+    background-color: #23404B;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-header{
+   background-color: #000000;
+   color: white;
+}
+.card{
+    background: rgb(217,199,161);
+    background: linear-gradient(90deg, rgba(217,199,161,1) 13%, rgba(73,89,86,1) 67%);
+}
+
+
+.card .img-box{
+    display: flex;
+    justify-content: center;
+    height:8em;
+    margin: 40px;
+    margin-bottom: 40px;
+}
+
+.card-body{
+    padding-bottom: 30px !important;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    align-items: center;
+}
+
+.col-sm-6{
+    margin-top: 1em !important;
+}
